@@ -14,7 +14,6 @@ switch (color) {
     break;
   default:
     console.log("not found");
-    break;
 }
 
 // Part-2:Nested for Loop
@@ -30,7 +29,7 @@ for (let i = 0; i < matrix.length; i++) {
   }
 }
 
-// Part 3:Iterating over and object
+Part 3:Iterating over and object
 
 const product = {
   name: "bag",
@@ -42,7 +41,7 @@ for (let key in product) {
   console.log(`${key}: ${product[key]}`);
 }
 
-// Part 4: If else with logical operators
+Part 4: If else with logical operators
 
 if (product.price < 50 && product.inStock === true) {
   console.log("Available");
